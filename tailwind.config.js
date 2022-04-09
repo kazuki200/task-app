@@ -1,0 +1,52 @@
+module.exports = {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        red: "#F42958",
+        pink: "#EE8077",
+        blue: "#4488C5",
+        gray: "#ACACAC",
+        lightGray: "#F0F0F0",
+        darkGray: "#707070",
+        IntermediateGray: "#666666",
+        black: "#2B2B2B",
+        lightGreen: "#ECF4EF",
+        mildGreen: "#4CAF93",
+        brown: "#A2B02E",
+      },
+      fontFamily: {
+        open: [
+          "Open Sans",
+          "Yu Gothic",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Helvetica Neue",
+          "游ゴシック Medium",
+          "YuGothic",
+          "YuGothicM",
+          "メイリオ",
+          "Meiryo",
+          "sans-serif",
+        ],
+        noto: [
+          "Noto Sans",
+          "Yu Gothic",
+          "-apple-system",
+          "BlinkMacSystemFont",
+          "Helvetica Neue",
+          "游ゴシック Medium",
+          "YuGothic",
+          "YuGothicM",
+          "メイリオ",
+          "Meiryo",
+          "sans-serif",
+        ],
+      },
+    },
+  },
+  plugins: [],
+};
